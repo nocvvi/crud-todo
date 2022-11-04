@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.UUID;
 
 @RestController
-@CrossOrigin(originPatterns = "*")
-@RequestMapping("/todos")
+@CrossOrigin(originPatterns = "##")
+@RequestMapping("/mapp")
 public class TodoController {
     private final TodoService todoService = new TodoService();
 
